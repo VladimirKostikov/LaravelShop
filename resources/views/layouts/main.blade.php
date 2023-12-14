@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel Shop / Bootstrap</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
 
     @vite(['resources/js/app.js'])
@@ -34,8 +37,8 @@
             </form>
     
             <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Войти</button>
-              <button type="button" class="btn btn-warning">Регистрация</button>
+              <button type="button" class="btn btn-outline-light me-2">Sign in</button>
+              <button type="button" class="btn btn-warning">Sign up</button>
             </div>
           </div>
         </div>
